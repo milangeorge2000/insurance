@@ -1,0 +1,16 @@
+// Sign Language Recognition System
+digraph {
+	A [label="Capture Frame"]
+	B [label="Extract ROI"]
+	C [label="Apply Gaussian Blur"]
+	D [label="Apply Threshold"]
+	E [label="Pass to CNN Model"]
+	F [label="Classify Symbols"]
+	G [label=Autocorrect]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+}

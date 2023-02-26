@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>App</title>
+    <style>
+      body {
+        background-image: url("static/img1.jpg");
+        background-size: cover;
+        opacity: 1;
+        height: 100vh;
+      }
+      
+      .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10%;
+      }
+      
+      button a {
+        text-decoration: none;
+        color: white;
+      }
+
+      button {
+        padding: 10px 20px;
+        margin: 10px;
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+        border-radius: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: all 0.3s ease-in-out;
+        text-decoration: none
+      }
+
+      button:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="button-container">
+      <button>
+        <a href="/amount.html">Amount Prediction</a>
+      </button>
+      <button>
+        <a href="/companies.html">Insurance Comapny Prediction</a>
+      </button>
+    </div>
+  </body>
+</html>
